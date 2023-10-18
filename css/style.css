@@ -1,0 +1,85 @@
+
+@font-face {
+  font-family: 'ITC-Roman';
+  src: url(../fonts/FCaslonTwelveITC-Roman.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'ITC-Roman';
+  font-weight: 700
+}
+
+body {
+  background: url(../assets/bg.svg), #E6E2D7;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  padding: 42px;
+}
+
+header {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+header .topo {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .topo .logo img{
+  width: 100px;
+}
+
+header .topo .titulo {
+  text-align: center;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  
+}
+
+header .topo .titulo h1 {
+  letter-spacing: 1.5px;
+  font-size: 40px;
+  border-top: 3px double #000;
+}
+
+header .topo .titulo p {
+  border-bottom: 3px double #000;
+}
+
+header .baixo {
+  display: flex;
+  gap: 22px;
+}
+
+header .baixo .stacks {
+  background: url(../image/bg-escuro.png), #171313;
+  color: #E6E2D7;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+header .baixo .stacks .image-stacks img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+header .baixo .sobre-stack {
+  text-align: justify;
+}
