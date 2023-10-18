@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  width: 800px;
+  width: 1000px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -46,22 +46,23 @@ header .topo .titulo {
   text-align: center;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  
 }
 
 header .topo .titulo h1 {
   letter-spacing: 1.5px;
-  font-size: 40px;
+  font-size: 52px;
   border-top: 3px double #000;
 }
 
 header .topo .titulo p {
+  font-size: 20px;
   border-bottom: 3px double #000;
 }
 
 header .baixo {
   display: flex;
   gap: 22px;
+  font-size: 18px;
 }
 
 .stacks, .tarja {
@@ -70,11 +71,16 @@ header .baixo {
 }
 
 header .baixo .stacks {
-  min-width: 240px;
+  min-width: 290px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
+}
+
+header .baixo .stacks .image-stacks {
+  display: flex;
+  gap: 10px;
 }
 
 header .baixo .stacks .image-stacks img {
@@ -91,7 +97,7 @@ header .baixo .sobre-stack {
 
 
 main {
-  width: 800px;
+  width: 1000px;
   border: 3px solid #000;
   padding: 10px;
 }
@@ -102,17 +108,35 @@ main {
   gap: 20px;
 }
 
+
 .curiosidades .curiosidade .tarja {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  padding: 10px;
+  font-size: 18px;
+  padding: 12px;
   text-transform: uppercase;
-
 }
 
 .curiosidades .titulo h1 {
   text-transform: uppercase;
-  font-size: 81px;
+  font-size: 101px;
   text-align: center;
+}
+
+.sobre {
+  display: flex;
+  gap: 20px;
+}
+
+.sobre p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: justify;
+  border-bottom: 21px solid #000;
+  line-height: 32.6px;
+
+}
+
+.sobre .desenvolvedor img {
+  width: 540px;
 }
