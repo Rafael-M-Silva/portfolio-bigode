@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ITC Founders Caslon 12';
+    src: local('ITC Founders Caslon 12 Roman'), local('ITC-Founders-Caslon-12-Roman'),
+        url('FCaslonTwelveITC-Roman.woff2') format('woff2'),
+        url('FCaslonTwelveITC-Roman.woff') format('woff'),
+        url('FCaslonTwelveITC-Roman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
