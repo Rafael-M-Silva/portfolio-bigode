@@ -99,7 +99,7 @@ header .baixo .sobre-stack {
 main {
   width: 1000px;
   border: 3px solid #000;
-  padding: 10px;
+  padding: 20px;
 }
 
 .curiosidades .curiosidade {
@@ -112,24 +112,32 @@ main {
 .curiosidades .curiosidade .tarja {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 16px;
   padding: 12px;
+  letter-spacing: 1.1px;
   text-transform: uppercase;
+  text-shadow: #e6e2d76b 0px 3px 3px;
 }
 
 .curiosidades .titulo h1 {
   text-transform: uppercase;
-  font-size: 101px;
+  font-size: 98px;
   text-align: center;
+  letter-spacing: 1.1px;
 }
 
+.teste {
+  font-size: 30px;
+  text-shadow: #171313 -5px -5px 0px;
+}
 .sobre {
   display: flex;
   gap: 20px;
+  margin-bottom: 15px;
 }
 
 .sobre p {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   text-align: justify;
   border-bottom: 21px solid #000;
@@ -139,4 +147,109 @@ main {
 
 .sobre .desenvolvedor img {
   width: 540px;
+}
+
+.projetos-desenvolvidos {
+  display: flex;
+  gap: 50px;
+  position: relative;
+}
+
+.projetos-desenvolvidos .projetos .tarja {
+  text-align: center;
+  font-size: 20px;
+}
+
+.projetos-desenvolvidos .projetos, .projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projetos-desenvolvidos .projetos .projeto img {
+  width: 450px;;
+}
+
+.projetos-desenvolvidos .paragrafo-horizontal {
+  font-size: 23px;
+  letter-spacing: 8.48px;
+  position: absolute;
+  bottom: 352.8px;
+  left: 100px;
+  transform: rotate(90deg);
+}
+
+.projetos-desenvolvidos .paragrafo-horizontal div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  
+}
+
+.projetos-desenvolvidos .paragrafo-horizontal div img {
+  object-fit: contain;
+  transform: rotate(-90deg);
+}
+
+.projetos-desenvolvidos .experiencias-redes {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 32.6px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 7px solid #000;
+}
+.projetos-desenvolvidos .experiencias-redes .redes-socias {
+  line-height: 21.8px;
+}
+
+.projetos-desenvolvidos .experiencias-redes .redes-socias .image-redes {
+  display: flex;
+  padding: 8px;
+  background: url(../image/bg-escuro.png), #171313;
+
+}
+
+.projetos-desenvolvidos .experiencias-trabalho {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.projetos-desenvolvidos .experiencias-trabalho .tarja {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  gap: 5px;
+}
+
+video {
+  background: url(../image/bg-escuro.png), #646262cb;
+}
+
+source {
+  width: 100%;
+}
+
+.projetos-desenvolvidos .experiencias-trabalho .trabalho {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projetos-desenvolvidos .experiencias-trabalho .trabalho .experiencia {
+  padding: 20px;
+}
+
+.projetos-desenvolvidos .experiencias-trabalho .trabalho .experiencia p, h2 {
+  text-align: center;
+}
+
+.projetos-desenvolvidos .experiencias-trabalho .trabalho .experiencia ul li {
+  font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
 }
